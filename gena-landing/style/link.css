@@ -1,0 +1,8 @@
+.link, .link:active, .link:visited, .link:link {
+    font-weight: 600;
+    color: #3D4B66;
+    transition: all 0.2s linear 0s;
+}
+.link:hover {
+    color: #E26E3D;
+}

@@ -1,0 +1,67 @@
+.section-2 {
+    display: flex;
+    width: 100%;
+    background: #FFFFFF;
+    padding: 120px 0;
+}
+.section-2 .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section-2 .container .text {
+    width: 100%;
+    max-width: 850px;
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 40px;
+}
+.section-2 .container .gena-img {
+    width: 100%;
+    max-width: 900px;
+    object-fit: cover;
+    margin-top: 70px;
+}
+
+@media (max-width: 1200px) {
+    .section-2 {
+
+    }
+    .section-2 .container .text {
+
+    }
+    .section-2 .container .gena-img {
+
+    }
+}
+
+@media (max-width: 992px) {
+    .section-2 {
+        padding: 60px 0;
+    }
+    .section-2 .container .text {
+        max-width: 580px;
+        font-size: 28px;
+        line-height: 36px;
+        margin-bottom: 30px;
+    }
+    .section-2 .container .gena-img {
+        max-width: 635px;
+        margin-top: 44px;
+    }
+}
+
+@media (max-width: 768px) {
+    .section-2 {
+        padding: 40px 0;
+    }
+    .section-2 .container .text {
+        max-width: 550px;
+        font-size: 22px;
+        line-height: 25px;
+        margin-bottom: 25px;
+    }
+    .section-2 .container .gena-img {
+        max-width: 550px;
+    }
+}
